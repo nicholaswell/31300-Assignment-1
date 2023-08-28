@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    background-color: #ffffff;
+  }
+
+nav {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1d1c1c;
+    box-sizing: border-box;
+    padding: 30px 8px;
+    z-index: 2;
+  }
+
+  a{
+    text-decoration:none;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+  }
+
+  a,p{
+    color: white;
+    background-color: transparent;
+    font-family: 'raleway','Helvetica Neue','Helvetica','Arial','sans-serif';
+  }
+  
+
+  h1, h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  }
+  
+  h1{
+    font-size: 75px;
+  }
+
+  p{
+    position: relative;
+    text-align: center;
+  }
+
+  img{
+    position: relative;
+    max-height: 500px;
+  }
+
+  .container{
+    display: flex;
+    margin-top: 80px;
+    padding: 100px;
+    justify-content: space-between;
+  }
+
+  .info-flex-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .product-title{
+    text-align: center;
+  }
+
+  .product-desc{
+    font-size: 20px;
+    padding: 30px;
+    color: black;
+  }
+
+  button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+  }
+
+  input{
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+  }
+
+  .form-container{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: wrap;
+  }
+
+@media screen and (max-width: 1450px) {
+  .container{
+    flex-wrap: wrap;
+  }
+
+  img{
+    width: 100%;
+  }
+}
